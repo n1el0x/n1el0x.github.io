@@ -5,30 +5,63 @@
 <link rel="stylesheet" href="style.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="main.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'> <!-- Downloads the desired font -->
 </head>
 <body>
+<!-- Google searchbar -->
+				<div id="searchForm">
+					<form action="" method="post">
+						<input type="text" name="s" value="" placeholder="Search" />
+						<select name="engines">
+							<option value="google">Google</option>
+							<option value="youtube">YouTube</option>
+							<option value="tpb">TPB</option>
+							<option value="kickass">Kickass</option>
+							<option value="duck">Duck Duck Go</option>
+							<option value="wa">Wolfram Alpha</option>
+							<option value="wiki">Wikipedia</option>
+							<option value="imdb">IMDB</option>
+						</select>
+					</form>
+				</div>
+<!--end google searchbar -->
 <ul class="container">
         <!-- Start Dropdown -->
-        <li><a class="parent" href="#">Entertainment</a> <!-- Section title -->
+        <li><a class="parent" href="#">4chan</a> <!-- Section title -->
                 <ul class="submenu"> <!-- Links Start -->
                         <li><a class="tab" href="https://boards.4chan.org/g/catalog">/g/ - Technology</a></li>
-                        <li><a class="tab" href="https://boards.4chan.org/gd/catalog">/gd/ - Graphic Design</a></li>
-                        <li><a class="tab" href="https://play.google.com/music">Google Play Music</a></li>
-                        <li><a class="tab" href="https://netflix.com">Netflix</a></li>
-                        <li><a class="tab" href="https://soundcloud.com/stream">SoundCloud</a></li>
-                        <li><a class="tab" href="https://www.flickr.com">Flickr</a></li>
-                        <li><a class="tab" href="https://youtube.com">Youtube</a></li>
-                        <li><a class="tab" href="https://web.whatsapp.com">WhatsApp Web</a></li>        
+                        <li><a class="tab" href="https://boards.4chan.org/b/catalog">/gd/ - Random</a></li>
+                        <li><a class="tab" href="https://boards.4chan.org/g/catalog">/g/ - Technology</a></li>
+                        
+                              
                 </ul> <!-- Links End -->
         </li>
         <!-- End Dropdown Section -->
-        <li><a class="parent" href="#">Technology & Science</a>
+        <li><a class="parent" href="#">Social</a>
                 <ul class="submenu">
+                        <li><a class="tab" href="https://web.whatsapp.com">WhatsApp Web</a></li>  
                         <li><a class="tab" href="http://www.codepen.io">CodePen</a></li>
                         <li><a class="tab" href="http://www.codeacademy.com">Codeacademy</a></li>
                         <li><a class="tab" href="http://www.github.com">Github</a></li>
                         <li><a class="tab" href="http://www.lifehacker.co.uk">Lifehacker UK</a></li>
+                        <li><a class="tab" href="http://www.livescience.com">Live Science</a></li>
+                        <li><a class="tab" href="https://www.newscientist.com">New Scientist</a></li>
+                        <li><a class="tab" href="http://www.stackoverflow.com">Stack Overflow</a></li>
+                        <li><a class="tab" href="http://www.stuff.tv">Stuff</a></li>
+                        <li><a class="tab" href="http://www.wired.co.uk">Wired UK</a></li>
+                        <li><a class="tab" href="http://www.wired.com">Wired US</a></li>
+                </ul>
+
+                <li><a class="parent" href="#">Entertainment</a>
+                <ul class="submenu">
+                        <li><a class="tab" href="https://netflix.com">Netflix</a></li>
+                        <li><a class="tab" href="https://soundcloud.com/stream">SoundCloud</a></li>
+                        <li><a class="tab" href="https://www.flickr.com">Flickr</a></li>
+                        <li><a class="tab" href="https://youtube.com">Youtube</a></li>
+                        <li><a class="tab" href="http://www.codepen.io">CodePen</a></li>
+                        <li><a class="tab" href="http://www.codeacademy.com">Codeacademy</a></li>
+                        <li><a class="tab" href="http://www.github.com">Github</a></li>
                         <li><a class="tab" href="http://www.livescience.com">Live Science</a></li>
                         <li><a class="tab" href="https://www.newscientist.com">New Scientist</a></li>
                         <li><a class="tab" href="http://www.stackoverflow.com">Stack Overflow</a></li>
@@ -49,11 +82,9 @@
                         <li><a class="tab" href="https://www.reddit.com/r/4chan">4chan</a></li>
                 </ul>
         </li>
-        <li><a class="parent" href="#">Style & Fashion</a>
+        <li><a class="parent" href="#">Andere sites</a>
                 <ul class="submenu">
-                        <li><a class="tab" href="http://4chan.org/fa/catalog">/fa/ - Fashion</a></li>
-                        <li><a class="tab" href="http://www.primermagazine.com">Primer Magazine</a></li>
-                        <li><a class="tab" href="https://www.thread.com/v2/home">Thread</a></li>
+                        <li><a class="tab" href="http://www.lifehacker.co.uk">Lifehacker UK</a></li>
                         <!--<li><a class="tab" href="https://www.reddit.com/r/space">Space</a></li>
                         <li><a class="tab" href="https://www.reddit.com/r/startpages">Startpages</a></li>
                         <li><a class="tab" href="https://www.reddit.com/r/techsupportgore">Techsupportgore</a></li>
