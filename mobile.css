@@ -39,6 +39,7 @@ a
         text-decoration: none;
         transition: all .3s ease;
         opacity: .5;
+
 }
 a:hover {color: #fff;transition: all .3s ease;}
 a.parent {transition: all .3s ease;color: #555;background: #EEE;text-align: center;}

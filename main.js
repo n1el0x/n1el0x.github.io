@@ -31,11 +31,14 @@ function search(query, engine)
 		case 'youtube':
 			var url = 'https://www.youtube.com/results?search_query=' + query;
 		break;
+		case 'subreddit':
+			var url = 'https://reddit.com/r/' + query;
+		break;
 		case 'tpb':
 			var url = 'https://piratehole.com/search/' + query + '/0/99/0';
 		break;
 		case 'kickass':
-			var url = 'http://kickasstorrent.proxyindex.co/usearch/' + query + '/';
+			var url = 'https://kat.cr/usearch/' + query + '/';
 		break;
 		case 'duck':
 			var url = 'https://duckduckgo.com/?q=' + query;
