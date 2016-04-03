@@ -10,3 +10,5 @@ body
         background: url('bg2.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
+        font-family: 'Questrial', sans-serif;
+}
