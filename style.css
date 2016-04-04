@@ -6,9 +6,11 @@ html
 }
 body
 {
-        background: url('bg2.jpg')
-;        background-repeat: no-repeat;
-        background-attachment: fixed;
+  background: url(bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
         font-family: 'Questrial', sans-serif;
 }
 ::-webkit-scrollbar {display: none;}
