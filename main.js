@@ -34,6 +34,9 @@ function search(query, engine)
 		case 'subreddit':
 			var url = 'https://reddit.com/r/' + query;
 		break;
+		case 'stack':
+			var url = 'http://stackoverflow.com/search?q=' + query;
+		break;
 		case 'tpb':
 			var url = 'https://piratehole.com/search/' + query + '/0/99/0';
 		break;
